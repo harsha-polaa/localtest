@@ -1,0 +1,49 @@
+/* body{
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_12,w_877,h_493/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/ImageExchange/mmsport/308/01hwdews52ag3dmvce5m.jpg");
+    background-size: cover;
+}
+.container{
+    margin: 100px 0 0 200px;
+    width:70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid cornsilk;
+    transition: all ease-in-out 0.5s;
+
+}
+.container img:hover{
+    width: 25%;
+}
+     */
+     body{
+        background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_12,w_877,h_493/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/ImageExchange/mmsport/308/01hwdews52ag3dmvce5m.jpg");
+        background-size: cover;
+    }
+    .container{
+        margin: 100px 0 0 200px;
+        height: 450px;
+        width:70%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .container img{
+        width:10%;
+        height:100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid cornsilk;
+        transition: all ease-in-out 0.5s;
+    }
+    .container img:hover{
+        width:25%
+    }
+    
